@@ -218,11 +218,32 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Video *video = [_fakeData objectAtIndex:indexPath.row];
-//    MedioViewController *media = [[MedioViewController alloc]init];
-//    [self.navigationController pushViewController:media animated:YES];
-//    media.flv = video.flv;
     _flv = video.flv;
-    [self createMPPlayerController:_flv];
+
+    //提示视图控制器
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"请选择" message:nil preferredStyle:(UIAlertControllerStyleActionSheet)];
+    //添加时间
+    UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"播放" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        [self createMPPlayerController:_flv];
+    }];
+    UIAlertAction *action2 = [UIAlertAction actionWithTitle:@"下载" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        
+    }];
+    UIAlertAction *action3 = [UIAlertAction actionWithTitle:@"收藏" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        
+    }];
+    UIAlertAction *action4 = [UIAlertAction actionWithTitle:@"取消" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction *action) {
+        [alertVC dismissMoviePlayerViewControllerAnimated];
+    }];
+    
+    [alertVC addAction:action1];
+    [alertVC addAction:action2];
+    [alertVC addAction:action3];
+    [alertVC addAction:action4];
+    //模态出提示框
+    [self presentViewController:alertVC animated:YES completion:nil];
+    
+//    [self createMPPlayerController:_flv];
 }
 
 
