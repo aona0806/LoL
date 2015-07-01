@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>99F3F2C5-B3EF-4EE3-90DE-AB86C652FB21</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoLAssistant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A3F0A68E3C9A11FC4A0A5B8A135BFDD77AB8D7E6</key>
+		<string>https://github.com/aona0806/ANLoL.git</string>
+		<key>D0F87FF22ECA502A8FA75F17C026C197D2D4868A</key>
+		<string>https://github.com/aona0806/ANLoL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoLAssistant/LoLAssistant.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A3F0A68E3C9A11FC4A0A5B8A135BFDD77AB8D7E6</key>
+		<string>../../../../ANLoL</string>
+		<key>D0F87FF22ECA502A8FA75F17C026C197D2D4868A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aona0806/ANLoL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0F87FF22ECA502A8FA75F17C026C197D2D4868A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A3F0A68E3C9A11FC4A0A5B8A135BFDD77AB8D7E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ANLoL</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0F87FF22ECA502A8FA75F17C026C197D2D4868A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HadesSura</string>
+		</dict>
+	</array>
+</dict>
+</plist>
